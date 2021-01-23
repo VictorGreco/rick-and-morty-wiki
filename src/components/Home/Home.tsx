@@ -39,7 +39,7 @@ class Home extends React.Component<{}, HomeState> {
 	render() {
 		return (
 			<div className="Home">
-				<img src={title} className="logo" alt="title" />
+				<img src={title} className="logo title" alt="title" />
 				<Link className="button" to={this.state.episodes} target="_self">Episodes</Link>
 				<Link className="button" to={this.state.locations} target="_self">Locations</Link>
 				<Link className="button" to={this.state.characters} target="_self">Characters</Link>

@@ -41,3 +41,24 @@
 		transform: rotate(360deg);
 	}
 }
+
+@media only screen and (min-width: 768px) {  
+	.Home {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.Home .spinner {
+		width: 25vw;
+	}
+
+	.Home .button {
+		font-size: 3.5rem;
+		margin: 25px;
+	}
+
+	.Home .title {
+		width: 100%;
+	}
+}
