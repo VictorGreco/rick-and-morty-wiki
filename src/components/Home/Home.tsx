@@ -26,7 +26,7 @@ class Home extends React.Component<{}, HomeState> {
 		const regex = /\/api\/(.*)/;
 		const match = url.match(regex);
 
-		return match && match[1] || '/';
+		return match ? match[1] : '/';
 	}
 	componentDidMount() {
 		axios.get('https://rickandmortyapi.com/api').then(resp => this.setState({
