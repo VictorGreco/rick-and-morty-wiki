@@ -14,7 +14,9 @@ const Header = (props: any): JSX.Element => {
 
     return (
         <header className="Header">
-            <img src={title} alt="title" height="75" width="auto" />
+            <Link to="/" >
+                <img src={title} alt="title" height="75" width="auto" />
+            </Link>
             <Link to="/" >
                 <img src={logo} alt="logo" height="60" width="auto" />
             </Link>

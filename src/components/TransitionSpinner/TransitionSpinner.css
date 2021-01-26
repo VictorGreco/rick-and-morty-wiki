@@ -8,11 +8,6 @@
     background-color: var(--bg-color);
 }
 
-.TransitionSpinner .spinner {
-    width: 50vw;
-    height: auto;
-}
-
 @media (prefers-reduced-motion: no-preference) {
 	.TransitionSpinner .spinner {
 		animation: Home-logo-spin infinite 2s linear;
