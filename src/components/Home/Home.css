@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow: hidden;
 }
 
 .logo {
@@ -23,15 +24,16 @@
 }
 
 .Home .spinner {
-	width: 125vw;
-	height: auto;
+    width: 125vw;
+    height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
 	.spinner {
-		animation: Home-logo-spin infinite 20s linear;
+		animation: Home-logo-spin infinite 50s linear;
 	}
 }
+
 
 @keyframes Home-logo-spin {
 	from {
@@ -39,5 +41,26 @@
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (min-width: 768px) {  
+	.Home {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.Home .spinner {
+		width: 100vw;
+	}
+
+	.Home .button {
+		font-size: 3.5rem;
+		margin: 25px;
+	}
+
+	.Home .title {
+		width: 100%;
 	}
 }
