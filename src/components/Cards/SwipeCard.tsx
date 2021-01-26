@@ -32,7 +32,7 @@ class SwipeCard extends React.Component<SwipeCardProps, SwipeCardState> {
         this.setState({
             originalHeight: element && parseFloat(getComputedStyle(element, null).getPropertyValue('height').replace('px', '')),
             originalY: element && element.getBoundingClientRect().top,
-            originalMouseY: !!mobileTouch && mobileTouch[0].pageY || event.pageY
+            originalMouseY: !!mobileTouch && (mobileTouch[0].pageY || event.pageY)
         })
     }
 
@@ -42,7 +42,7 @@ class SwipeCard extends React.Component<SwipeCardProps, SwipeCardState> {
         const originalY = this.state.originalY;
         const element = document.querySelector('.resizable'),
             mobileTouch = event.changedTouches,
-            pageY = !!mobileTouch && mobileTouch[0].pageY || event.pageY,
+            pageY = !!mobileTouch && (mobileTouch[0].pageY || event.pageY),
             pageYScroll = (pageY - this.state.originalMouseY),
             height = originalHeight && (originalHeight - pageYScroll),
             isHeighInRange = height && (height > MIN_SIZE && height < MAX_SIZE),
