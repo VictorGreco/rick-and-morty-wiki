@@ -1,0 +1,20 @@
+.TransitionSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background-color: var(--bg-color);
+}
+
+.TransitionSpinner .spinner {
+    width: 50vw;
+    height: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.TransitionSpinner .spinner {
+		animation: Home-logo-spin infinite 2s linear;
+	}
+}

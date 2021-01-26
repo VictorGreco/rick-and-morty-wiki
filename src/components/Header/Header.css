@@ -1,0 +1,12 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 998;
+    background-color: var(--bg-color);
+    padding: 0 20px 10px 20px;
+    box-shadow: 0px 100px 999px rgb(0, 255, 0, 0.5);
+}
