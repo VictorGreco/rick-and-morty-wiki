@@ -21,11 +21,11 @@ class TransitionSpinner extends React.Component<TransitionSpinnerProps, Transiti
     render() {
         setTimeout(() => {
             this.setState({hidden: true});
-        }, 2000);
+        }, 2500);
 
         return (
             <div className={`TransitionSpinner ${this.state.hidden ? 'hidden': ''}`}>
-                <img className="spinner" src={logo} alt="logo" height="75" width="auto" />
+                <img className="spinner" src={logo} alt="logo" height="125" width="auto" />
             </div>
         );
     }

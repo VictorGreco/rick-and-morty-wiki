@@ -1,5 +1,6 @@
 :root {
   --bg-color: #282c34;
+  --main-color: lime;
 }
 body {
   background-color: var(--bg-color);

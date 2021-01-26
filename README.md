@@ -14,8 +14,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -42,16 +40,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./images/homepage.png" height="400" width="auto">
-
+<img src="./images/screenshot.png">
 
 ### Built With
 
-* []()
-* []()
-* []()
-
-
+* [ReactJS](https://it.reactjs.org/)
+* [ReactDOM](https://it.reactjs.org/docs/react-dom.html)
+* [ReactRouter](https://reactrouter.com/)
+* [TypeScript](https://www.typescriptlang.org/docs/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Rick and Morty API](https://rickandmortyapi.com/api)
+* [Netlify](https://docs.netlify.com/?_ga=2.54717551.57473543.1611621729-1968293676.1611346252)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -77,7 +76,12 @@ git clone https://github.com/victorgreco/rick-and-morty-wiki.git
 npm install
 ```
 
+3. Run client side
+```sh
+npm run build
+```
 
+4. Open localhost
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -87,12 +91,10 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/victorgreco/rick-and-morty-wiki/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -106,14 +108,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -121,19 +119,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Victor Greco - [linkedin](https://www.linkedin.com/in/victor-greco/) - victorgreco263@gmail.com
 
 Project Link: [https://github.com/victorgreco/rick-and-morty-wiki](https://github.com/victorgreco/rick-and-morty-wiki)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

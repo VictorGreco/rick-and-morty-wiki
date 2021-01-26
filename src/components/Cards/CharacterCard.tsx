@@ -73,7 +73,7 @@ class CharacterCard extends React.Component<CharacterCardProps, CharacterCardPro
                         const { id, url } = data;
                         return (
                             <div key={index} className="slider-item button">
-                                <Link className="button" to={`/${getEndpoint(url)}`} target="_self">Episode {id}</Link>
+                                <Link className="button" to={`/${getEndpoint(url)}`} target="_self">{`Episode ${id}`}</Link>
                             </div>
                         );
                     })}
