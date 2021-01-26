@@ -9,7 +9,6 @@ import { getEndpoint } from './helper';
 
 function App() {
 	const [data, setData]: any = useState();
-	const [location, setLocation] = useState(window.location);
 
 	useEffect((): void => {
 		axios.get('https://rickandmortyapi.com/api').then(resp => {
